@@ -1,0 +1,16 @@
+# environment.yml
+name: 3dp
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - open3d
+  - pymeshfix
+  - jupyterlab
+  - dash
+  - spyder-kernels
+  - pip
+  - pip:
+    - "pyvista[all]"
+    - "pyvista-cad[3mf]"
